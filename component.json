@@ -6,7 +6,7 @@
     "Firebase <operations@firebase.com>"
   ],
   "description": "Firebase Web Client",
-  "main": "firebase.js",
+  "main": "firebase-debug.js",
   "keywords": [
     "Firebase",
     "synchronization",
@@ -14,12 +14,7 @@
     "websocket"
   ],
   "license": "MIT",
-  "private": false,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
+  "scripts": [
+    "firebase-debug.js"
   ]
 }
